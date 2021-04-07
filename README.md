@@ -15,7 +15,7 @@ version of the Trojan.
 
 <h4>Config</h4>
 
-This folder holds unique config files for each trojan: this is where you tell each trojan which actions to perform and the modules required to do so.\n
+This folder holds unique config files for each trojan: this is where you tell each trojan which actions to perform and the modules required to do so.<br />
 Each trojan should have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
