@@ -25,3 +25,7 @@ control of your trojans.
 
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
 Create a token [here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line/)
+
+Tip:
+Create several different tokens for different trojans so you can control what each trojan can access in your repository. That way, if victims catch your
+trojan, they can’t come along and delete all of your retrieved data.
