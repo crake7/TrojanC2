@@ -1,5 +1,5 @@
 # TrojanC2
-<h5>Why to use a Github to build a python trojan framework?</h5>
+<h5>Why to use Github to build a trojan framework using Python?</h5>
 Because you can use Python's native library-import mechanism to deploy new functionality on your trojans. This means you can automatically update your implants, and any dependant libraries, directly from your repo.
 In addition, your traffic to GitHub will be encrypted over SSL, and several entreprises use Github for their own work. So your traffic can be completely invisible to their blue teams. 
 
