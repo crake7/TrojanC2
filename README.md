@@ -24,5 +24,4 @@ control of your trojans.
 <h4>.gitignore</h4>
 
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
-To create a token and add it to a file, check: https://help.github.com/en/github/authenticating-to-github/
-creating-a-personal-access-token-for-the-command-line/ 
+Create a token [text link with title](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line/ "here.")
