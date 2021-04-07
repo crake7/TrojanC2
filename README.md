@@ -1,6 +1,6 @@
 # Trojan.C2
 
-<h4 align="center>Command and Control (C2) Trojan Framework to control, update, and receive data from your implants.</h4>
+<h4 align="center">Command and Control (C2) Trojan Framework to control, update, and receive data from your implants.</h4>
 
 <h5>Why to use Github to build a trojan framework using Python?</h5>
 Because you can use Python's native library import mechanism to deploy new functionality on your trojans. This means you can automatically update your implants, and any dependant libraries, directly from your repo.
