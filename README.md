@@ -37,6 +37,7 @@ This folder holds unique config files for each trojan: this is where you tell ea
 Each trojan should have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
+<br>
 ### .gitignore
 
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
