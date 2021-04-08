@@ -38,6 +38,7 @@ Each trojan should have a unique ID. This help when sorting retrieved data based
 control of your trojans. 
 
 <br>
+
 ### .gitignore
 
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
