@@ -29,7 +29,7 @@ Each module you add should expose a "run(**args)" function that takes a varialbe
 This enables to load each module in the same fashion, but also allows you to customize the configuration
 files to pass different arguments to the modules. 
 
-<h6 align="center"> Tip: To assess your modules, push them to GitHub and enable them in a configuration file fror your local testing version of the Trojan.</h6> 
+<h6> Tip: To assess your modules, push them to GitHub and enable them in a configuration file fror your local testing version of the Trojan.</h6> 
 
 ## Config
 
@@ -42,4 +42,4 @@ control of your trojans.
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
 Beware that is you forget to do this step, you will end up posting your token to your repository. 
 
-<h6 align="center"> Tip: Create several different tokens for different trojans so you can control what each trojan can access in your repository. That way, if victims catch your trojan, they can’t come along and delete all of your retrieved data.</h6> 
+<h6> Tip: Create several different tokens for different trojans so you can control what each trojan can access in your repository. That way, if victims catch your trojan, they can’t come along and delete all of your retrieved data.</h6> 
