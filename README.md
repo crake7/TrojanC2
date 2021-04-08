@@ -4,8 +4,8 @@
 <p align="center">
   <a href="#How-to">How-to</a> •
   <a href="#Modules">Modules</a> •
-  <a href="#Config">Config</a>
-  <a href="#Data">Config</a>
+  <a href="#Config">Config</a> •
+  <a href="#Data">Data</a>
 </p>
 
 ___
