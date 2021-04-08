@@ -2,8 +2,8 @@
 <h4 align="center">Command and Control (C2) Trojan Framework to control, update, and receive data from your implants.</h4>
 
 <p align="center">
-  <a href="#Modules">Modules</a>
-  <a href="#Config">Modules</a>
+  <a href="#Modules">Modules</a> •
+  <a href="#Config">Config</a>
 </p>
 
 ___
