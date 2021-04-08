@@ -5,6 +5,7 @@
   <a href="#How-to">How-to</a> •
   <a href="#Modules">Modules</a> •
   <a href="#Config">Config</a>
+  <a href="#Data">Config</a>
 </p>
 
 ___
@@ -36,6 +37,10 @@ files to pass different arguments to the modules.
 This folder holds unique config files for each trojan: this is where you tell each trojan which actions to perform and the modules required to do so.<br />
 Each trojan should have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
+
+## Data
+
+Data path where the trojan will write its output files.
 
 <br>
 
