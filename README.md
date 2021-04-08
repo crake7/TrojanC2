@@ -16,7 +16,7 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 ## How-to
 
 1. Create a private repository.
-2. Create a personal access token (PAT) [here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line/)
+2. Create a personal access token (PAT), instructions [here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line/)
 3. Add the token's filename to the .gitignore file. 
 Optional: Add functionality by modifying the Modules and Config folders.
 4. Compile the trojan to run in the victim's OS.
