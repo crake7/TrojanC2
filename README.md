@@ -1,13 +1,15 @@
 <h1 align="center"> Trojan.C2</h1>
 <h4 align="center">Command and Control (C2) Trojan Framework to control, update, and receive data from your implants.</h4>
 
+<p align="center">
+  <a href="mod
 
-//<h5>Why to use Github to build a trojan framework using Python?</h5>
+<h5>Why to use Github to build a trojan framework using Python?</h5>
 Because you can use Python's native library import mechanism to deploy new functionality on your trojans. This means you can automatically update your implants, and any dependant libraries, directly from your repo.
 In addition, your traffic to GitHub will be encrypted over SSL; several entreprises already use Github for their own work, so your traffic can be completely invisible to their blue teams. 
 
 <br /><br />
-<h4>Modules</h4>
+### Modules
 
 This is where you add additional functionality to your trojans.<br />
 Each module you add should expose a "run(**args)" function that takes a varialbe number of arguments. 
