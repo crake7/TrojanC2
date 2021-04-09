@@ -79,7 +79,7 @@ files to pass different arguments to the modules. </p>
 3. Modify the *horsy.py* file by removing the filename 'test' and add the name of your file. 
 
 </p>
-Each trojan should also have a unique ID. This help when sorting retrieved data based on the ID and provides modular
+Each trojan should also have a unique ID. This helps when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
 ## Data
