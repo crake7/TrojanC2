@@ -71,7 +71,7 @@ files to pass different arguments to the modules. </p>
 
 1. Add a new JSON file following the structure of 'test.json'.
 2. Name the file with a unique ID depending on its functionality. 
-3. Modify the *horsy.py* file by removing the 'test' file and adding the one you have created. 
+3. Modify the *horsy.py* file by removing the 'test' name file and add the name of your file name. 
 
 </p>
 <br />
