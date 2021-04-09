@@ -88,7 +88,6 @@ Data path where the trojan will write its output files directly.
 
 <p>
 <strong>.gitignore</strong>
-This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
-<strong>Beware that is you forget to do this step, you will end up posting your token to your repository. </strong>
+- This file should have the filename of your PAT(personal access token). Give the token read and write permissions. Beware that is you forget to do this step, you will end up posting your token to your repository.
 </p>
 <h6> Tip: Create several different tokens for different trojans so you can control what each trojan can access in your repository. That way, if victims catch your trojan, they can’t come along and delete all of your retrieved data.</h6> 
