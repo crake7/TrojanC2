@@ -56,7 +56,7 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 </tr>
 <tr>  
 <td>Shellcode</td>
-<td>Connects to your remote web server and executes shellcode directly into the target's memory.</td>
+<td>Connects to your remote web server and executes your shellcode directly into the target's memory.</td>
 </tr>
 </tbody>
 </table>
