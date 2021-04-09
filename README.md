@@ -68,7 +68,8 @@ files to pass different arguments to the modules. </p>
 
 🧠 The brains of your Trojans. 🧠  <br />
 This is where you tell each trojan which actions to perform and the modules required to do so.<br />
-Each trojan should have a unique ID. This help when sorting retrieved data based on the ID and provides modular
+Add new JSON files following the structure of 'test.json' and name the file with a unique ID depending on its functionality. 
+Each trojan should also have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
 ## Data
