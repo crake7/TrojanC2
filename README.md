@@ -1,4 +1,4 @@
-<h1 align="center"> 🐎🐎 Trojan.C2 🐎🐎</h1>
+<h1 align="center"> 🐎 Trojan.C2 🐎</h1>
 <h4 align="center">Command and Control (C2) Trojan Framework uses a Github account to fully control, update, and receive data from your implants and remain stealthy.</h4>
 
 <p align="center">
