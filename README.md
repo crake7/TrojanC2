@@ -74,7 +74,6 @@ files to pass different arguments to the modules. </p>
 3. Modify the *horsy.py* file by removing the filename 'test' and add the name of your file. 
 
 </p>
-<br />
 Each trojan should also have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
@@ -87,6 +86,6 @@ Data path where the trojan will write its output files directly.
 ### .gitignore
 
 This file should have the filename of your PAT(personal access token). Give the token read and write permissions.
-Beware that is you forget to do this step, you will end up posting your token to your repository. 
+<strong>Beware that is you forget to do this step, you will end up posting your token to your repository. </strong>
 
 <h6> Tip: Create several different tokens for different trojans so you can control what each trojan can access in your repository. That way, if victims catch your trojan, they can’t come along and delete all of your retrieved data.</h6> 
