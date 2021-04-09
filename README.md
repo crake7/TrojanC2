@@ -11,9 +11,9 @@
 
 ___
 
-<h5>Why to use Github to build and deploy a trojan framework using Python?</h5>
-Because you can use Python's native library import mechanism to deploy new functionality on your trojans. This means you can automatically update your implants, and any dependant libraries, directly from your repo.
-In addition, your traffic to GitHub will be encrypted over SSL; several entreprises already use Github for their own work, so your traffic can be completely invisible to their blue teams. 
+<h5>Why to use Github to build and deploy a trojan using Python?</h5>
+First, because your traffic to GitHub will be encrypted over SSL. Several entreprises already use Github for their own work, so your traffic can be completely invisible to their blue teams. 
+In addition, you can use Python's native library import to deploy new functionality on your trojans - this means you can automatically update your implants, and any dependant libraries, directly from your repo.
 
 ## How-to
 
