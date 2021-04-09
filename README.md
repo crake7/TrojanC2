@@ -58,7 +58,7 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
  <br />
 <p>To expand functionality and update your trojan remotely, write the necesary code in this folder. </p>
 <p>Recommended usage: 
-Each module you add should expose a **run(**args)** function that takes a variable number of arguments. 
+  Each module you add should expose a <strong>run(**args)</strong> function that takes a variable number of arguments. 
 This enables to load each module in the same fashion, but also allows you to customize the configuration
 files to pass different arguments to the modules. </p>
 
