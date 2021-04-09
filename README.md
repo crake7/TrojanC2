@@ -1,4 +1,4 @@
-<h1 align="center"> Trojan.C2</h1>
+<h1 align="center"> 🐎🐎Trojan.C2🐎🐎</h1>
 <h4 align="center">Command and Control (C2) Trojan Framework uses a Github account to fully control, update, and receive data from your implants and remain stealthy.</h4>
 
 <p align="center">
@@ -69,7 +69,7 @@ files to pass different arguments to the modules. </p>
 🧠 The brains of your Trojans. 🧠  <br />
 This is where you tell each trojan which actions to perform and the modules required to do so:<br />
 
-1. Add new JSON file following the structure of 'test.json'.
+1. Add a new JSON file following the structure of 'test.json'.
 2. Name the file with a unique ID depending on its functionality. 
 3. Modify the *horsy.py* file by removing the 'test' file and adding the one you have created. 
 
