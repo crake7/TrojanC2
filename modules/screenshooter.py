@@ -12,6 +12,9 @@ def get_dimensions():
     return (width, height, left, top)
 
 def screenshot(name='screenshot'):
+
+    # Learn more here: https://docs.microsoft.com/en-us/windows/win32/gdi/device-contexts.
+     
     # Get a handle for the entire desktop
     hdesktop = win32gui.GetDesktopWindow()
     width, height, left, top = get_dimensions()
