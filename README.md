@@ -90,7 +90,7 @@ Data path where the trojan will write its output files directly.
 <strong>.gitignore</strong>
 - This file should have the filename of your PAT(personal access token). Give the token read and write permissions. Beware that is you forget to do this step, you will end up posting your token to your repository.
 </p>
-
+<br />
 <p>
 The creator, writers and contributors take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.
 </p>
