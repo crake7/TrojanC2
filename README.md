@@ -54,6 +54,10 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 <td>Screenshooter</td>
 <td>Takes a screenshot of user's desktop. </td>
 </tr>
+<tr>  
+<td>Shellcode</td>
+<td>Connects to remote web server and executes base64-encoded raw shellcode directly into memory.</td>
+</tr>
 </tbody>
 </table>
  <br />
