@@ -44,10 +44,16 @@ files to pass different arguments to the modules. </p>
 <tr>
 <td>Dirlister</td>
 <td>Retrieves a list of folders/files in the current directory</td>
+</tr>
+<tr>
 <td>Environment</td>
 <td>Retrieves a list of the user's environmental variables. </td>
+</tr>
+<tr>
 <td>Key Logger</td>
 <td>Prints out PID, process name, window name and keystrokes of user.</td>
+</tr>
+<tr>  
 <td>Screenshooter</td>
 <td>Takes a screenshot of user's desktop. </td>
 </tr>
