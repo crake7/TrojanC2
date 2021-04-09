@@ -67,9 +67,9 @@ files to pass different arguments to the modules. </p>
 ## Config
 
 🧠 The brains of your Trojans. 🧠  <br />
-This is where you tell each trojan which actions to perform and the modules required to do so.<br />
+This is where you tell each trojan which actions to perform and the modules required to do so:<br />
 
-1. Add new JSON files following the structure of 'test.json'.
+1. Add new JSON file following the structure of 'test.json'.
 2. Name the file with a unique ID depending on its functionality. 
 3. Modify the horsy.py file by removing the 'test' file and adding the one you have created. 
 
