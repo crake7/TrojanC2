@@ -2,11 +2,11 @@
 <h4 align="center">Trojan Command and Control (C2) Framework uses a Github account to control, update, and receive data from your implants while remaining stealthy.</h4>
 
 <p align="center">
-  <a href="#How-to">How-to</a> •
+  <a href="#How-to">How to</a> •
   <a href="#Modules">Modules</a> •
   <a href="#Config">Config</a> •
   <a href="#Data">Data</a> •
-  <a href="#Important-!">Important!</a>
+  <a href="#Important">Important!</a>
 </p>
 
 ___
@@ -84,7 +84,7 @@ Data path where the trojan will write its output files directly.
 
 <br>
 
-### Important!
+### Important
 
 <p>
 <strong>.gitignore</strong>
