@@ -40,23 +40,23 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 <tbody>
 <tr>
 <td>Dirlister</td>
-<td>Retrieves a list of folders/files in the current directory</td>
+<td>Retrieves a list of folders/files in the target's current directory</td>
 </tr>
 <tr>
 <td>Environment</td>
-<td>Retrieves a list of the user's environmental variables. </td>
+<td>Retrieves a list of the target's environmental variables. </td>
 </tr>
 <tr>
 <td>Key Logger</td>
-<td>Prints out PID, process name, window name and keystrokes of user.</td>
+<td>Prints out PID, process name, window name and keystrokes of target.</td>
 </tr>
 <tr>  
 <td>Screenshooter</td>
-<td>Takes a screenshot of user's desktop. </td>
+<td>Takes a screenshot of target's desktop. </td>
 </tr>
 <tr>  
 <td>Shellcode</td>
-<td>Connects to your remote web server and executes shellcode directly into memory.</td>
+<td>Connects to your remote web server and executes shellcode directly into the target's memory.</td>
 </tr>
 </tbody>
 </table>
