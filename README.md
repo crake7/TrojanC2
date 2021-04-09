@@ -67,12 +67,13 @@ files to pass different arguments to the modules. </p>
 ## Config
 
 🧠 The brains of your Trojans. 🧠  <br />
-This is where you tell each trojan which actions to perform and the modules required to do so:<br />
+<p>This is where you tell each trojan which actions to perform and the modules required to do so:<br />
 
 1. Add a new JSON file following the structure of 'test.json'.
 2. Name the file with a unique ID depending on its functionality. 
 3. Modify the *horsy.py* file by removing the 'test' file and adding the one you have created. 
 
+</p>
 <br />
 Each trojan should also have a unique ID. This help when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
