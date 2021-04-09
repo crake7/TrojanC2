@@ -26,8 +26,8 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 
 ## Modules
 
-The muscles of your Trojans.💪 <br />
-To expand functionality and update your trojan remotely, write the necesary code here. 
+💪 The muscles of your Trojans.💪 <br />
+To expand functionality and update your trojan remotely, write the necesary code in this folder. 
 <p>Recommended usage: 
 Each module you add should expose a "run(**args)" function that takes a varialbe number of arguments. 
 This enables to load each module in the same fashion, but also allows you to customize the configuration
