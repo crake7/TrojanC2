@@ -40,7 +40,7 @@ In addition, your traffic to GitHub will be encrypted over SSL; several entrepri
 <tbody>
 <tr>
 <td>Dirlister</td>
-<td>Retrieves a list of folders/files in the target's current directory</td>
+<td>Retrieves a list of folders & files in the target's current directory</td>
 </tr>
 <tr>
 <td>Environment</td>
