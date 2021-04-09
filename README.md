@@ -33,6 +33,23 @@ Each module you add should expose a "run(**args)" function that takes a varialbe
 This enables to load each module in the same fashion, but also allows you to customize the configuration
 files to pass different arguments to the modules. </p>
 
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Functionality</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dirlister</td>
+<td>Retrieve list of folders/files in the current directory</td>
+</tr>
+</tbody>
+</table>
+
+
+
 <h6> Tip: To assess your modules, push them to GitHub and enable them in a configuration file fror your local testing version of the Trojan.</h6> 
 
 ## Config
