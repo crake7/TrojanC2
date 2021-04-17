@@ -63,29 +63,28 @@ In addition, you can use Python's native library import to deploy new functional
 </table>
  <br />
 <p>To expand functionality and update your trojan remotely, write the necesary code in this folder. </p>
-<p>Recommended usage: 
+**Recommended usage**: 
   Each module you add should expose a `run(**args)` function that takes a variable number of arguments. 
 This enables to load each module in the same fashion, but also allows you to customize the configuration
-files to pass different arguments to the modules. </p>
+files to pass different arguments to the modules.
 
 <h6> Tip: To assess your modules, push them to GitHub and enable them in a configuration file fror your local testing version of the Trojan.</h6> 
 
 ## Config
 
 🧠 The brains of your Trojans. 🧠  <br />
-<p>This is where you tell each trojan which actions to perform and the modules required to do so:<br />
+* This is where you tell each trojan which actions to perform and the modules required to do so:
 
 1. Add a new JSON file following the structure of `test.json`.
 2. Name the file with a unique ID depending on its functionality. 
 3. Modify the `horsy.py` file by removing the filename 'test' and add the name of your file. 
 
-</p>
-Each trojan should also have a unique ID. This helps when sorting retrieved data based on the ID and provides modular
+* Each trojan should also have a unique ID. This helps when sorting retrieved data based on the ID and provides modular
 control of your trojans. 
 
 ## Data
 
-Data path where the trojan will write its output files directly. 
+* Data path where the trojan will write its output files directly. 
 
 <br>
 
