@@ -61,10 +61,8 @@ In addition, you can use Python's native library import to deploy new functional
 </tr>
 </tbody>
 </table>
- <br />
 
 * To expand functionality and update your trojan remotely, write the necesary code in this folder.
-
 * Recommended usage: 
   Each module you add should expose a `run(**args)` function that takes a variable number of arguments. 
 This enables to load each module in the same fashion, but also allows you to customize the configuration
