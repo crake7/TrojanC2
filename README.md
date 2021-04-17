@@ -31,7 +31,7 @@ In addition, you can use Python's native library import to deploy new functional
 
 💪 The muscles of your Trojans.💪 <br />
 
-<table class="center">
+<table align="center">
 <thead>
 <tr>
 <th>Module</th>
