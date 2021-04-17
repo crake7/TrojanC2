@@ -29,7 +29,7 @@ In addition, you can use Python's native library import to deploy new functional
 
 ## Modules
 
-<align="center">💪 The muscles of your Trojans.💪 <br />
+<p style="text-align: center;">💪 The muscles of your Trojans.💪 </p>
 
 <table>
 <thead>
