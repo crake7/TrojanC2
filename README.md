@@ -27,7 +27,7 @@ In addition, you can use Python's native library import to deploy new functional
 
 <p>Optional: Add functionality by modifying the Modules and Config folders.</p>
 
-## Modules
+## Modules 💪 The muscles of your Trojans.💪 
 
 <p align="center">💪 The muscles of your Trojans.💪 </p> <br />
 
