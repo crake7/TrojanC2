@@ -29,7 +29,7 @@ In addition, you can use Python's native library import to deploy new functional
 
 ## Modules
 
-<p align="center">💪 The muscles of your Trojans.💪 </p>
+<p align="center">💪 The muscles of your Trojans.💪 </p> <br />
 
 <table>
 <thead>
@@ -72,7 +72,7 @@ files to pass different arguments to the modules.
 
 ## Config
 
-🧠 The brains of your Trojans. 🧠  <br />
+<p align="center">🧠 The brains of your Trojans. 🧠 </p> <br />
 
 This is where you tell each trojan which actions to perform and the modules required to do so:
   1. Add a new JSON file following the structure of `test.json`.
