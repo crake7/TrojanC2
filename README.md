@@ -31,7 +31,7 @@ In addition, you can use Python's native library import to deploy new functional
 
 💪 The muscles of your Trojans.💪 <br />
 
-<table align="center">
+<table>
 <thead>
 <tr>
 <th>Module</th>
@@ -44,7 +44,7 @@ In addition, you can use Python's native library import to deploy new functional
 <td>Retrieves a list of folders & files in the target's current directory</td>
 </tr>
 <tr>
-<td>Environment</td>
+<td align="center">Environment</td>
 <td>Retrieves a list of the target's environmental variables. </td>
 </tr>
 <tr>
