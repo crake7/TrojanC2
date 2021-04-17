@@ -62,6 +62,7 @@ In addition, you can use Python's native library import to deploy new functional
 </tbody>
 </table>
  <br />
+
 * To expand functionality and update your trojan remotely, write the necesary code in this folder.
 
 **Recommended usage**: 
