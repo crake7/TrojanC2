@@ -34,30 +34,30 @@ In addition, you can use Python's native library import to deploy new functional
 <table>
 <thead>
 <tr>
-<th>Module</th>
-<th>Functionality</th>
+<th align="center">Module</th>
+<th align="center">Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Dirlister</td>
-<td>Retrieves a list of folders & files in the target's current directory</td>
+<td align="center">Dirlister</td>
+<td align="center">Retrieves a list of folders & files in the target's current directory</td>
 </tr>
 <tr>
 <td align="center">Environment</td>
-<td>Retrieves a list of the target's environmental variables. </td>
+<td align="center">Retrieves a list of the target's environmental variables. </td>
 </tr>
 <tr>
-<td>Key Logger</td>
-<td>Prints out PID, process name, window name and keystrokes of target.</td>
+<td align="center">Key Logger</td>
+<td align="center">Prints out PID, process name, window name and keystrokes of target.</td>
 </tr>
 <tr>  
-<td>Screenshooter</td>
-<td>Takes a screenshot of target's desktop. </td>
+<td align="center">Screenshooter</td>
+<td align="center">Takes a screenshot of target's desktop. </td>
 </tr>
 <tr>  
-<td>Shellcode</td>
-<td>Connects to your remote web server and executes your shellcode directly into the target's memory.</td>
+<td align="center">Shellcode</td>
+<td align="center">Connects to your remote web server and executes your shellcode directly into the target's memory.</td>
 </tr>
 </tbody>
 </table>
