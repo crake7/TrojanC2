@@ -73,7 +73,7 @@ files to pass different arguments to the modules.
 ## Config
 
 🧠 The brains of your Trojans. 🧠  <br />
-* This is where you tell each trojan which actions to perform and the modules required to do so:
+This is where you tell each trojan which actions to perform and the modules required to do so:
   1. Add a new JSON file following the structure of `test.json`.
   2. Name the file with a unique ID depending on its functionality. 
   3. Modify the `horsy.py` file by removing the filename 'test' and add the name of your file. 
