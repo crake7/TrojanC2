@@ -48,7 +48,7 @@ In addition, you can use Python's native library import to deploy new functional
 <td>Retrieves a list of the target's environmental variables. </td>
 </tr>
 <tr>
-<td align="center">Key Logger</td>
+<td align="center">Windows Key Logger</td>
 <td>Prints out PID, process name, window name and keystrokes of target.</td>
 </tr>
 <tr>  
