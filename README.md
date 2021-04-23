@@ -61,7 +61,7 @@ In addition, you can use Python's native library import to deploy new functional
 </tr>
 <tr>  
 <td align="center">Sandbox Detection</td>
-<td>Bypasses common AV sandboxing techniques by monitoring the target's machine.</td>
+<td>Bypasses Windows AV sandboxing techniques by monitoring the target's machine.</td>
 </tr>
 </tbody>
 </table>
