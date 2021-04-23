@@ -18,7 +18,11 @@ def write_memory(buf):
     # This allows the shellcode to run in 32- or 64-bit Python:
     #   1. Set the 'VirtualAlloc' return type to be a pointer: this ensures the width of the memory address returned matches the width of 'RtlMoveMemory'
     kernel32.VirtualAlloc.restype   = ctypes.c_void_p
+<<<<<<< HEAD
     #   2. Set the arguments 'RtMoveMemory' will receive to be two pointers and one size object
+=======
+    # Set arguments to be two pointers and a size object
+>>>>>>> edb4bf12f1b68cb29c4ba52bbaefe2ad10f5fe6c
     kernel32.RtlMoveMemory.argtypes = (
         ctypes.c_void_p,
         ctypes.c_void_p,
