@@ -1,4 +1,4 @@
-from ctypes import byref, c_unit, c_ulong, sizeof, Structure, windll
+from ctypes import byref, c_uint, c_ulong, sizeof, Structure, windll
 
 import random
 import sys
@@ -79,7 +79,7 @@ class Detector:
                         # Is the user trying to deceit us by streaming click events and thwart our sandbox detection? Not today, Satan. 
                         if self.double_clicks >= max_double_clicks:
                             if (keypress_time - first_double_click <=
-                                max_double_clicks*double_click_threshold)):
+                                (max_double_clicks*double_click_threshold)):
                                 sys.exit(0)
                 
                 if (self.keystrokes    >= max_keystrokes and
