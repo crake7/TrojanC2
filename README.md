@@ -60,8 +60,8 @@ In addition, you can use Python's native library import to deploy new functional
 <td>Connects to your remote web server and executes your shellcode directly into the target's memory.</td>
 </tr>
 <tr>  
-<td align="center">Sandbox Detection</td>
-<td>Bypasses Windows AV sandboxing techniques by monitoring the target's machine.</td>
+<td align="center">Windows Sandbox Detection</td>
+<td>Bypasses common AV sandboxing techniques by monitoring the target's machine.</td>
 </tr>
 </tbody>
 </table>
